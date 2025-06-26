@@ -1,0 +1,32 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "functional": "cpp",
+        "unordered_map": "cpp",
+        "bitset": "cpp",
+        "set": "cpp"
+    },
+    "github.copilot.enable": {
+        "*": false
+    },
+    "background.editor.backgroundImages": [
+        "file:///C:/Users/rudra/OneDrive/Desktop/coding/chatgpt(c++)/karan1.png"
+    ],
+    "background.editor.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "center",
+        "background-repeat": "no-repeat",
+        "background-size": "cover",
+        "opacity": 0.5,
+        "editor.fontWeight": "bold"
+
+    }
+}
+
+
+

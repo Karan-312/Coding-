@@ -1,0 +1,64 @@
+.predictive {
+    background-color: #e0f7fa; /* Light blue background for flood prediction */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+h2 {
+    color: #00796b; /* Darker teal color for headings */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-predict {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-predict:hover {
+    background-color: #004d40;
+}
+
+.result-box {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.details {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-left: 5px solid #00796b;
+}
+
+.safety-tips {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffeb3b; /* Yellow background for safety tips */
+    border-radius: 5px;
+}

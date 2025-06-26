@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head> <link rel="stylesheet" href="predictive.css"></head>
+</head>
+<body>
+    
+
+<section class="predictive">
+    <h2>Flood Prediction</h2>
+    <form id="prediction-form">
+        <label for="location">Enter Your Location:</label>
+        <input type="text" id="location" name="location" placeholder="City, State" required>
+
+        <label for="flood-risk">Select Flood Risk Level:</label>
+        <select id="flood-risk" name="flood-risk" required>
+            <option value="">--Choose Risk Level--</option>
+            <option value="low">Low Risk</option>
+            <option value="medium">Medium Risk</option>
+            <option value="high">High Risk</option>
+        </select>
+
+        <button type="submit" class="btn-predict">Check Flood Prediction</button>
+    </form>
+
+    <div id="prediction-result" class="result-box">
+        <h3>Prediction Results:</h3>
+        <p id="result-text">Your flood prediction will appear here...</p>
+        <div id="result-details" class="details"></div>
+    </div>
+
+    <div class="safety-tips">
+        <h4>Flood Safety Tips</h4>
+        <ul>
+            <li>Know your area's flood risk.</li>
+            <li>Prepare an emergency kit with essentials like food and water.</li>
+            <li>Have a family evacuation plan in place.</li>
+            <li>Stay informed through weather alerts and local news.</li>
+        </ul>
+    </div>
+</section>
+
+    
+</body>
+</html>
