@@ -1,0 +1,27 @@
+# #if and else loops
+
+# age = int(input("enter you age "))
+# if age >=100:
+#     print("you are not allowed to sign up you are too old ")
+# elif age >= 18:
+#     print("you are now signed up")
+# elif age <0:
+#     print("you havent been born yet")
+# elif age >=100:
+#     print("you are not allowed to sign up you are too old ")
+# else:
+#     print("you are not allowed to sign up")
+
+# response = input("would you like food ? (Y/N) : ")
+
+# if response == "Y":
+#     print("have some food ")
+# else:
+#     print("you will not have any food ")
+
+for_sale = False
+
+if for_sale:
+    print("this item is for sale ")
+else:
+    print("nah this iitem is not listed for sale ")

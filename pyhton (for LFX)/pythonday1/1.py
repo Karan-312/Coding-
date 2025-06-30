@@ -1,12 +1,30 @@
-print("hello, LFX world")
 
-name = input("enter you name : ")
-age = input("enter your age :")
-print(" hello " + name + " you are  " + age + " years old . ")
-
-print("hello`, LFX world")
-print("hello, LFX world")       
+#STRINGS
+first_name = "karan"
+food = "pizza"
+email="karan@gmaol.com"
 
 
-print("hello, LFX world")
-print("hello, LFX world")
+#INTERGER 
+
+age = 25 
+quantity = 3
+
+
+#FLOAT 
+
+wwight = 56.5
+cgpa = 3.32
+
+# BOOLEAN 
+
+is_student = True
+id_online = True 
+
+
+if id_online:
+      print("you are online  ")
+else:
+    print ("you are not online ")
+
+
