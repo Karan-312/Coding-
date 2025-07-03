@@ -1,14 +1,14 @@
-# firends = 5
+firends = 5
 # firends = firends +1
 # firends +=1
 # firends  = firends -2
 # firends -= 2
 # firends =firends * 3 
 # firends *= 3 
-# firends =  firends **2
+firends =  firends **2
 # firends **=2
 # remainder = firends % 2
-# print(firends)
+print(firends)
 
 # x = 3.14
 # y = -4 

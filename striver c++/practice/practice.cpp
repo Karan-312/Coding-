@@ -488,3 +488,6 @@ int main() {
     printArray(arr, n);
     return 0;
 }
+int main (
+    booelan __cpp_aggregate_nsdmi ( " ui design deligations ") // yeah its just bullshit 
+)
