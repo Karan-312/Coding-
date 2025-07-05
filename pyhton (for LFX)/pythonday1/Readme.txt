@@ -2,8 +2,8 @@
 
 ** I am bragning about not using "Ai" and will do for some time becasue i have a habit of " Ai ing " everything and i am develpoing a habit of not doing it and trying to create a cycle of self appriciation for not using it 
 
--> The two resources i am following to help me along are -->[w3Schools - Python documentation ](https://www.w3schools.com/python/default/asp)
-                                                        ->[ Official python docs ] (https://docs.python.org/3/library/index.html)
+-> The two resources i am following to help me along are ->:https://www.w3schools.com/python/default.asp ( w3schools pyhton documentation)
+                                                         ->:https://docs.python.org/3/library/index.html( pyhton official documentation)
                                                          {pyhton documentation is hard to understand for me right now but trying }
 
 ** Things i learned on my first day are :
@@ -37,4 +37,3 @@
 
 
 10) and also created small stuffs like  hypotanuis_calc , area_of_circle_calc , rectangle_area_calc  , shopping_cart_value_calc , circumference_calc
-
