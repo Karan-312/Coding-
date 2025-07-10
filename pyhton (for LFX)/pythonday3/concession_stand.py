@@ -1,30 +1,36 @@
-menu = {"pizza": 3.00,
-               "nachos": 4.50,
-               "popcorn": 6.00,
-               "fries": 2.50,
-               "chips": 1.00,
-               "pretzel": 3.50,
-               "soda": 3.00,
-               "lemonade": 4.25}
-cart = []
+
+menu = {"pizza" : 2.99,
+        "chips" : 1.45,
+        "fries" : 1.00,
+        "burgers" : 3.00}
+
+# print(dir(menu))
+
+user_bill = []
 total = 0
 
-print("--------- MENU ---------")
-for key, value in menu.items():
-    print(f"{key:10}: ${value:.2f}")
-print("------------------------")
+print("------ THE MENU ------")
 
-while True:
-    food = input("Select an item (q to quit): ").lower()
-    if food == "q":
+for x,y in  menu.items() :
+    print(f"{x:10} -> ${y}")
+    
+print("---------END---------")
+
+choice = input("enter the food you want to order : ")
+
+while True :
+    food = input(" enter the food item you want to order (q to quit ) : ").lower()
+    if food == "q" :
         break
-    elif menu.get(food) is not None:
-        cart.append(food)
+    elif menu.get(food) is not None :
+        user_bill.append(food)
+        
+print("---------------------- YOUR BILL ----------")        
+for food in user_bill :
+    total = (total + menu.get(food))
+    print(food ,end= " ") 
+    
+print()       
 
-print("------ YOUR ORDER ------")
-for food in cart:
-    total += menu.get(food)
-    print(food, end=" ")
+print(f"total is : ${total}")
 
-print()
-print(f"Total is: ${total:.2f}")
