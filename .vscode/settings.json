@@ -24,9 +24,9 @@
         "background-size": "cover",
         "opacity": 0.5,
         "editor.fontWeight": "bold"
-
-    }
+    },
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/rudra/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations/synthwave-x-fluoromachine.css",
+        "file:///C:/Users/rudra/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations/epic-80s-transitions.css"
+    ]
 }
-
-
-
