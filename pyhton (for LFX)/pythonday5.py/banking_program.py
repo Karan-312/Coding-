@@ -1,29 +1,69 @@
-amount = 0 
-def deposit ():
-    amount = 0 
-    user_deposit = float(input ("enter the amount you want to deposit : "))
-    amount = amount + user_deposit
-    return amount
+def show_balance(balance):
+    print("*********************")
+    print(f"Your balance is ${balance:.2f}")
+    print("*********************")
 
-def withdrawl():
-    
-    user_withrawl = float(input ("enter the amount you want to withdraw from your account : "))
-    amount = amount - user_withrawl
-    return amount
+def deposit():
+    print("*********************")
+    amount = float(input("Enter an amount to be deposited: "))
+    print("*********************")
+    if amount < 0:
+        print("*********************")
+        print("That's not a valid amount")
+        print("*********************")
+        return 0
+    else:
+        return amount
 
-def net_balance():
+def withdraw(balance):
+    print("*********************")
+    amount = float(input("Enter amount to be withdrawn: "))
+    print("*********************")
 
-    user_balance= deposit() + withdrawl()
-    print(f"the total amount in your bank balance is : {user_balance}")
+    if amount > balance:
+        print("*********************")
+        print("Insufficient funds")
+        print("*********************")
+        return 0
+    elif amount < 0:
+        print("*********************")
+        print("Amount must be greater than 0")
+        print("*********************")
+        return 0
+    else:
+        return amount
 
+def main():
+    balance = 0
+    is_running = True
 
+    while is_running:
+        print("*********************")
+        print("   Banking Program   ")
+        print("*********************")
+        print("1.Show Balance")
+        print("2.Deposit")
+        print("3.Withdraw")
+        print("4.Exit")
+        print("*********************")
+        choice = input("Enter your choice (1-4): ")
 
-while True :
+        if choice == '1':
+            show_balance(balance)
+        elif choice == '2':
+            balance += deposit()
+        elif choice == '3':
+            balance -= withdraw(balance)
+        elif choice == '4':
+            is_running = False
+        else:
+            print("*********************")
+            print("That is not a valid choice")
+            print("*********************")
 
-    print("-----BANKING PROGRAM-----")
-    display = {"TOTAL BALANCE" : 1,
-               "DEPOSIT" :2,
-               "WITHDRAWL" :3,
-               "EXIT":4}
-    for x,y in display.items():
-        print(f"{x}:{y}")
+    print("*********************")
+    print("Thank you! Have a nice day!")
+    print("*********************")
+
+if __name__ == '__main__':
+    main()
