@@ -24,6 +24,10 @@ class Mainwindow(QMainWindow):
 
         central_widget.setLayout(hbox)
 
+        self.button1.setObjectName("button1")
+        self.button2.setObjectName("button2")
+        self.button3.setObjectName("button3")
+
         self.setStyleSheet("""
             QPushButton{
                 font-size: 40px;
@@ -32,7 +36,16 @@ class Mainwindow(QMainWindow):
                 margin: 2 px;
                 border: 3px solid;
                 border-radius: 15px;
-            }                   
+            }          
+            QPushButton#button1{
+                background-color: #e0e314;
+            }   
+            QPushButton#button2{
+                background-color: #b2c918;
+            }
+            QPushButton#button3{
+                background-color: #a5e314;
+            }                
         """)
 
 
