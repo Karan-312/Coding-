@@ -1,3 +1,5 @@
+# Radio buttons 
+
 import sys
 from PyQt5.QtWidgets import QApplication , QMainWindow , QRadioButton , QButtonGroup
 from PyQt5.QtCore import Qt

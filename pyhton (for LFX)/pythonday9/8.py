@@ -1,8 +1,9 @@
+#Line edit widgets
+
+
 import sys
 from PyQt5.QtWidgets import QApplication , QMainWindow , QLineEdit , QPushButton
 from PyQt5.QtCore import Qt
-
-
 
 class Mainwindow(QMainWindow):
     def __init__(self):

@@ -1,3 +1,5 @@
+#pyqt5 push buttons 
+
 import sys 
 from PyQt5.QtWidgets import QMainWindow , QApplication , QPushButton , QLabel
 from PyQt5.QtGui import QIcon

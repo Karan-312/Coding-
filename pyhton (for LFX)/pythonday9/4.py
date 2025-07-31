@@ -1,9 +1,13 @@
+#pyqt5 layouts
+
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow , QLabel,
                              QWidget,QVBoxLayout,QHBoxLayout,
                              QGridLayout)
 
 from PyQt5.QtGui import QIcon
+  
+
 
 class MyWindow(QMainWindow):
     def __init__(self):

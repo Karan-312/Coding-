@@ -1,8 +1,9 @@
+#Setting stylesheets in PyQt5
 import sys 
 from PyQt5.QtWidgets import QApplication , QMainWindow , QWidget , QHBoxLayout , QPushButton
 from PyQt5.QtCore import Qt
 
-
+# you can add hover effect by simply using havor:) 
 class Mainwindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -37,13 +38,13 @@ class Mainwindow(QMainWindow):
                 border: 3px solid;
                 border-radius: 15px;
             }          
-            QPushButton#button1{
+            QPushButton#button1{  
                 background-color: #e0e314;
-            }   
+            }  
             QPushButton#button2{
                 background-color: #b2c918;
             }
-            QPushButton#button3{
+            QPushButton#button3:hover{
                 background-color: #a5e314;
             }                
         """)
